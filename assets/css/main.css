@@ -2595,6 +2595,11 @@ input[type="radio"]:focus+label:before {
 		margin: 2rem 0;
 	}
 
+	.image2.left,
+	.image2.right {
+		max-width: 100%;
+	}
+
 }
 
 a.image2 {
@@ -2614,6 +2619,31 @@ a.image2:hover img {
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
+
+
+.iframe-container {
+	/* overflow: hidden;
+	/* padding-top: 56.25%; */
+	/* position: relative; */
+
+}
+
+.iframe-container iframe {
+	/* border: 0; */
+	height: 167;
+	/* left: 0; */
+	/* position: absolute;
+	top: 0; */
+	width: 552;
+}
+
+@media screen and (max-width: 736px) {
+
+	.iframe-container iframe {
+		width: 208;
+	}
+}
+
 
 /* List */
 
@@ -2852,6 +2882,7 @@ header.major {
 
 header.major h2 {
 	font-size: 1.7em;
+
 }
 
 /* 
@@ -2896,6 +2927,7 @@ footer.major {
 
 	header.major h2 {
 		font-size: 1.5em;
+		margin-top: 3em;
 	}
 
 	header.major p {
@@ -3580,11 +3612,25 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 736px) {
 
 	#nav {
-		display: none;
+		/* display: none; */
 	}
 
 	#nav+#main {
 		padding-top: 0;
+	}
+
+	#nav ul li a {
+		/* -moz-transition: font-size 0.2s ease;
+		-webkit-transition: font-size 0.2s ease;
+		-ms-transition: font-size 0.2s ease;
+		transition: font-size 0.2s ease;
+		display: inline-block;
+		height: 2.25em;
+		line-height: 2.25em; */
+		padding: 0 0.5em;
+		/* border: 0;
+		border-radius: 8px;
+		box-shadow: inset 0 0 0 1px transparent; */
 	}
 
 }
@@ -3882,6 +3928,12 @@ body.is-preload #header.alt .logo {
 		padding: 4em 4em 2em 4em;
 	}
 
+
+	#main>.main2 {
+		padding: 1em 4em 0em 4em;
+	}
+
+
 	#main>.main>.image.main:first-child {
 		margin: -4em 0 4em -4em;
 		width: calc(100% + 8em);
@@ -3893,6 +3945,11 @@ body.is-preload #header.alt .logo {
 
 	#main>.main {
 		padding: 4em 3em 2em 3em;
+	}
+
+
+	#main>.main2 {
+		padding: 1em 3em 0em 3em;
 	}
 
 	#main>.main>.image.main:first-child {
@@ -3908,6 +3965,10 @@ body.is-preload #header.alt .logo {
 		padding: 3em 2em 1em 2em;
 	}
 
+	#main>.main2 {
+		padding: 1em 2em 0em 2em;
+	}
+
 	#main>.main>.image.main:first-child {
 		margin: -3em 0 2em -2em;
 		width: calc(100% + 4em);
@@ -3919,6 +3980,11 @@ body.is-preload #header.alt .logo {
 
 	#main>.main {
 		padding: 3em 1.5em 1em 1.5em;
+	}
+
+
+	#main>.main2 {
+		padding: 1em 2em 0em 2em;
 	}
 
 	#main>.main>.image.main:first-child {
@@ -3936,6 +4002,11 @@ body.is-preload #header.alt .logo {
 
 	#main>.main {
 		padding: 2.5em 1em 0.5em 1em;
+	}
+
+
+	#main>.main2 {
+		padding: 1em 1em 0em 1em;
 	}
 
 	#main>.main>.image.main:first-child {
