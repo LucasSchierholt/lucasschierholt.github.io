@@ -3352,6 +3352,7 @@ table.alt tbody tr td {
 		padding: 6em 4em 3em 4em;
 	}
 
+
 }
 
 @media screen and (max-width: 980px) {
@@ -3362,6 +3363,10 @@ table.alt tbody tr td {
 
 	#header.alt {
 		padding: 5em 3em 2em 3em;
+	}
+
+	#header.alt .logo img {
+		max-width: 30%;
 	}
 
 }
@@ -3389,6 +3394,10 @@ table.alt tbody tr td {
 		font-size: 2.5em;
 	}
 
+	#header.alt .logo img {
+		max-width: 30%;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -3399,6 +3408,10 @@ table.alt tbody tr td {
 
 	#header.alt {
 		padding: 4em 1.5em 1em 1.5em;
+	}
+
+	#header.alt .logo img {
+		max-width: 40%;
 	}
 
 }
@@ -3412,6 +3425,11 @@ table.alt tbody tr td {
 	#header.alt {
 		padding: 3.5em 1em 0.5em 1em;
 	}
+
+	#header.alt .logo img {
+		max-width: 40%;
+	}
+
 
 }
 
